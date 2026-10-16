@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import AnythingLLMLogo from "@/media/anything-llm.png";
+import KeplerLLMLogo from "@/media/kepler-llm.png";
 import BrowserExtension from "@/models/browserExtension";
 
 /**
@@ -10,7 +10,7 @@ import BrowserExtension from "@/models/browserExtension";
  */
 export default function useApiConnection() {
   const [status, setStatus] = useState("loading");
-  const [logoUrl, setLogoUrl] = useState(AnythingLLMLogo);
+  const [logoUrl, setLogoUrl] = useState(KeplerLLMLogo);
 
   useEffect(() => {
     checkApiKeyStatus();
@@ -59,7 +59,7 @@ export default function useApiConnection() {
     const { apiBase } = await chrome.storage.sync.get(["apiBase"]);
     if (!apiBase) return;
     const { success, logoURL } = await BrowserExtension.fetchLogo(apiBase);
-    setLogoUrl(success ? logoURL : AnythingLLMLogo);
+    setLogoUrl(success ? logoURL : KeplerLLMLogo);
   };
 
   return { status, logoUrl, checkApiKeyStatus };

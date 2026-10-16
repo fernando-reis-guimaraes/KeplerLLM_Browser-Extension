@@ -1,11 +1,11 @@
-# AnythingLLM Chrome Extension
+# KeplerLLM Chrome Extension
 
 <p align="center">
-  <img src="src/media/anything-llm.png" alt="AnythingLLM Chrome Extension logo" width="200">
+  <img src="src/media/kepler-llm.png" alt="KeplerLLM Chrome Extension logo" width="200">
 </p>
 
 <p align="center">
-  Seamlessly integrate AnythingLLM into Google Chrome.
+  Seamlessly integrate KeplerLLM into Google Chrome.
 </p>
 
 <p align="center">
@@ -19,11 +19,11 @@
 
 ## Features
 
-- 🔗 Connect to your AnythingLLM instance with a simple connection string or automatic browser extension registration
-- 📑 Save selected text to AnythingLLM directly from any webpage
-- 📄 Upload entire web pages to AnythingLLM for processing
+- 🔗 Connect to your KeplerLLM instance with a simple connection string or automatic browser extension registration
+- 📑 Save selected text to KeplerLLM directly from any webpage
+- 📄 Upload entire web pages to KeplerLLM for processing
 - 🗂️ Embed content into specific workspaces
-- 🔄 Automatic logo synchronization with your AnythingLLM instance
+- 🔄 Automatic logo synchronization with your KeplerLLM instance
 
 ## Installation
 
@@ -63,10 +63,10 @@ The built extension will be in the `dist` folder.
 
 ## Usage
 
-1. Click on the AnythingLLM extension icon in your Chrome toolbar.
-2. Enter your AnythingLLM browser extension API key to connect to your instance (or create the API key inside AnythingLLM and have it automatically register to the extension).
-3. Right-click on selected text or anywhere on a webpage to see AnythingLLM options.
-4. Choose to save selected text or the entire page to AnythingLLM.
+1. Click on the KeplerLLM extension icon in your Chrome toolbar.
+2. Enter your KeplerLLM browser extension API key to connect to your instance (or create the API key inside KeplerLLM and have it automatically register to the extension).
+3. Right-click on selected text or anywhere on a webpage to see KeplerLLM options.
+4. Choose to save selected text or the entire page to KeplerLLM.
 
 ## Contributing
 
@@ -74,7 +74,7 @@ Contributions are welcome! Feel free to submit a PR.
 
 ## Acknowledgements
 
-- This extension is designed to work with [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm).
+- This extension is designed to work with [KeplerLLM](https://github.com/Mintplex-Labs/anything-llm).
 
 ---
 
