@@ -27,6 +27,8 @@
 
 ## Installation
 
+_The button below is the **upstream** AnythingLLM extension published by Mintplex Labs — shown for reference. This fork is not published on the Chrome Web Store; to use KeplerLLM's build, install from source or a release from this repo._
+
 <a href="https://chromewebstore.google.com/detail/anythingllm-browser-compa/pncmdlebcopjodenlllcomedphdmeogm">
   <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png" alt="Chrome Extension" width="200">
 </a>
@@ -74,9 +76,10 @@ Contributions are welcome! Feel free to submit a PR.
 
 ## Acknowledgements
 
-- This extension is designed to work with [KeplerLLM](https://github.com/Mintplex-Labs/anything-llm).
+- This extension is designed to work with [KeplerLLM](https://github.com/fernando-reis-guimaraes/KeplerLLM).
+- Forked from the upstream [Mintplex-Labs AnythingLLM browser extension](https://github.com/Mintplex-Labs/anythingllm-extension) — thank you to Mintplex Labs and all upstream contributors.
 
 ---
 
 Copyright © 2024 [Mintplex Labs](https://github.com/Mintplex-Labs). <br />
-This project is [MIT](../LICENSE) licensed.
+This project is [MIT](LICENSE) licensed.
